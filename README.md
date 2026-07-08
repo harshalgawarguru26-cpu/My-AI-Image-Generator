@@ -61,7 +61,7 @@ This project helped me learn about prompt engineering, image generation, and bui
 
 ## Author
 
-**Harshal Gawarguru**
+**Harshal Satish Gawarguru**
 
 Integrated AI Engineering Student
 
