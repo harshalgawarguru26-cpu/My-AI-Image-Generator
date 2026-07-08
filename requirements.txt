@@ -1,6 +1,8 @@
-torch
-diffusers
-transformers
-accelerate
+python
+ai
+stable-diffusion
 gradio
-safetensors
+diffusers
+huggingface
+text-to-image
+generative-ai
