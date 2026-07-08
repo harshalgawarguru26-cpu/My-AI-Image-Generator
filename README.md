@@ -1,59 +1,35 @@
+# My-AI-Image-Generator
 
-# 🎨 My-AI-Image-Generator
+This is my first Generative AI project developed during my first year of Integrated AI Engineering at SVNIT Surat.
 
-A Text-to-Image AI Image Generator built using **Stable Diffusion**, **PyTorch**, and **Gradio**. Users can generate high-quality images from text prompts with multiple artistic styles and customizable generation settings.
+The application generates images from text prompts using the Stable Diffusion model. I built the user interface with Gradio and added different customization options to make image generation easier and more interactive.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Features
 
-## 🚀 Features
-
-- 🖼️ Generate images from text prompts
-- 🚫 Negative Prompt support
-- 🎨 Multiple image styles:
+- Generate images from text prompts
+- Supports Negative Prompts
+- Multiple image styles:
   - Realistic
   - Anime
   - Oil Painting
   - Cartoon
   - Cyberpunk
   - Fantasy
-- ⚙️ Adjustable Quality Steps
-- 🎯 Adjustable Guidance Scale
-- 💾 Automatically saves generated images
-- 🖼️ Image History Gallery
-- 🌐 Simple and interactive Gradio interface
+- Adjustable Quality Steps
+- Adjustable Creativity Level
+- Automatically saves generated images
+- Image History Gallery
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
+- Gradio
 - PyTorch
 - Hugging Face Diffusers
 - Stable Diffusion
-- Gradio
 - Transformers
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## 📂 Project Structure
-
-```
-My-AI-Image-Generator/
-|── My_IMG_gen0(2).ipynb
-│── README.md
-|── app.py
-│── requirements.txt
-```
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## ⚡ Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/harshalgawarguru26-cpu/My-AI-Image-Generator.git
-```
+## How to Run
 
 Install the required libraries:
 
@@ -61,44 +37,32 @@ Install the required libraries:
 pip install -r requirements.txt
 ```
 
-Run the project:
+Run the application:
 
 ```bash
 python app.py
 ```
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Gradio interface will open in your browser where you can enter a prompt and generate images.
 
-## 📸 Example Prompts
+## Project Motivation
 
-- A futuristic city at sunset in Cyberpunk style.
-- A cute kitten drinking milk in realistic style.
-- A fantasy castle floating in the sky.
-- An astronaut riding a horse on Mars.
+I built this project to understand how text-to-image generation works using Stable Diffusion and how AI models can be integrated with a simple web interface using Python.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+This project helped me learn about prompt engineering, image generation, and building interactive AI applications.
 
-## 👨‍💻 Author
+## Future Improvements
+
+- More image styles
+- Faster image generation
+- Image editing features
+- Better UI design
+- Support for more AI models
+
+## Author
 
 **Harshal Gawarguru**
 
-First Year AI Engineering Student
+Integrated AI Engineering Student
 
 SVNIT Surat
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## ⭐ Future Improvements
-
-- Image Upscaling
-- More AI Models
-- Prompt History
-- Image Editing
-- Better UI
-- Faster Generation
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## 📜 License
-
-This project is created for educational and learning purposes.
